@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.senecacollege.client.ClientController">
+   <children>
+      <Button fx:id="proceedBtn" defaultButton="true" layoutX="264.0" layoutY="242.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="43.0" prefWidth="73.0" style="-fx-background-color: white; -fx-border-color: grey;" text="Proceed" />
+      <TextField fx:id="nicknameField" layoutX="226.0" layoutY="175.0" />
+      <Label layoutX="236.0" layoutY="138.0" text="Put your chat nickname!" />
+   </children>
+</AnchorPane>

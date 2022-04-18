@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.senecacollege.client.ReceiveController">
+   <children>
+      <TextField fx:id="msgField" layoutX="1.0" layoutY="361.0" prefHeight="38.0" prefWidth="521.0" style="-fx-background-color: white; -fx-border-color: grey;" />
+      <Button fx:id="sendBtn" defaultButton="true" layoutX="522.0" layoutY="361.0" mnemonicParsing="false" onAction="#sendToServer" prefHeight="38.0" prefWidth="78.0" style="-fx-background-color: white; -fx-border-color: grey;" text="Send" />
+      <ScrollPane fx:id="scroll" fitToWidth="true" prefHeight="365.0" prefWidth="601.0">
+         <content>
+            <VBox fx:id="messages" prefHeight="365.0" prefWidth="586.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
